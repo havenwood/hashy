@@ -11,7 +11,7 @@ gem install hashy
 ## Usage
 
 ```ruby
-require 'hashy
+require 'hashy'
 ```
 
 ## Credits
