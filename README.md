@@ -1,29 +1,19 @@
 # Hashy
 
-TODO: Write a gem description
+A Ruby gem implementing a few proposed methods for the Hash class: Hash#map_pair, Hash#map_key and Hash#map_value.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'hashy'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install hashy
+```bash
+gem install hashy
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'hashy
+```
 
-## Contributing
+## Credits
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+Thanks to Heftig for the refactor!
