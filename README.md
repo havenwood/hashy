@@ -16,4 +16,5 @@ require 'hashy'
 
 ## Credits
 
-Thanks to Heftig for the refactor!
+- Dominic S.'s initial suggestion [on ruby-core](http://www.ruby-forum.com/topic/4410595#new).
+- Thanks to Heftig for the refactor!
