@@ -32,6 +32,9 @@ hash.map_pair { |k, v| [k.to_s, v.to_s] }
 
 ## Credits
 
-- dsisnero's initial suggestion [on ruby-core](http://www.ruby-forum.com/topic/4410595#new)
-- nobu's suggesting of appropriate method names and making a gem
+- dsisnero's [initial post on ruby-core](http://www.ruby-forum.com/topic/4410595#new)
+- nobu's suggestion of appropriate method names and making a gem
 - heftig's refactoring of the code
+
+Thanks all!
+
