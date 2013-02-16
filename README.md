@@ -14,6 +14,22 @@ gem install hashy
 require 'hashy'
 ```
 
+## Examples
+
+```ruby
+hash = { aim: true }
+#=> {:aim=>true}
+ 
+hash.map_value &:to_s
+#=> {:aim=>"true"}
+ 
+hash.map_key &:to_s
+#=> {"aim"=>true}
+ 
+hash.map_pair { |k, v| [k.to_s, v.to_s] }
+#=> {"aim"=>"true"}
+```
+
 ## Credits
 
 - dsisnero's initial suggestion [on ruby-core](http://www.ruby-forum.com/topic/4410595#new)
