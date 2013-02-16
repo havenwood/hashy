@@ -16,5 +16,6 @@ require 'hashy'
 
 ## Credits
 
-- Dominic S.'s initial suggestion [on ruby-core](http://www.ruby-forum.com/topic/4410595#new).
-- Thanks to Heftig for the refactor!
+- dsisnero's initial suggestion [on ruby-core](http://www.ruby-forum.com/topic/4410595#new)
+- nobu's suggesting of appropriate method names and making a gem
+- heftig's refactoring of the code
