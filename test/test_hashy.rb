@@ -1,6 +1,7 @@
 require 'minitest/autorun'
 require 'minitest/pride'
 require_relative '../lib/hashy'
+require_relative '../lib/hashy/version'
 
 describe Hash do
   before do
