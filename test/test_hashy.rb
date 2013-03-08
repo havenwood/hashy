@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require 'hashy'
+require_relative '../hashy'
 
 describe Hash do
   before do
