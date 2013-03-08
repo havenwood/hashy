@@ -15,6 +15,7 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files`.split($/)
   spec.test_files    = spec.files.grep(%r{^(test)/})
   spec.require_paths = ['lib']
+  spec.add_development_dependency 'rake'
   spec.signing_key = '/Users/shannonskipper/.gem/private/gem-private_key.pem'
   spec.cert_chain  = ['/Users/shannonskipper/.gem/private/gem-public_cert.pem']
 end
