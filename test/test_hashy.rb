@@ -1,7 +1,8 @@
+$LOAD_PATH.unshift File.expand_path(File.dirname(__FILE__), '../lib')
+require 'hashy'
+require 'hashy/version'
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative '../lib/hashy'
-require_relative '../lib/hashy/version'
 
 describe Hash do
   before do
