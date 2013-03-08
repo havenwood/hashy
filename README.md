@@ -1,6 +1,6 @@
 # Hashy
 
-[![Build Status](https://secure.travis-ci.org/havenwood/hashy.png?branch=master)](http://travis-ci.org/havenwood/hashy)
+[![Build Status](https://travis-ci.org/havenwood/hashy.png?branch=master)](https://travis-ci.org/havenwood/hashy)
 
 A Ruby gem implementing a few proposed methods for the Hash class: Hash#map_pair, Hash#map_key and Hash#map_value.
 
