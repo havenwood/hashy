@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/havenwood/hashy.png?branch=master)](https://travis-ci.org/havenwood/hashy)
 
-A Ruby gem implementing a few proposed methods for the Hash class: Hash#map_pair, Hash#map_key and Hash#map_value.
+A Ruby gem implementing a few proposed methods for the Hash class: map_pair, map_key & map_value.
 
 ## Installation
 
