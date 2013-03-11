@@ -14,11 +14,7 @@ gem install hashy
 
 ```ruby
 require 'hashy'
-```
 
-## Examples
-
-```ruby
 hash = { aim: true }
 #=> {:aim=>true}
 
