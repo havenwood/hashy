@@ -4,16 +4,12 @@ class Hash
   def map_pair &block
     Hash[map &block]
   end
-  
+
   def map_key
-    each_pair.with_object({}) do |(key, value), result|
-      result[yield key] = value
-    end
+    each_with_object({}) { |(k, v), h| h[yield(k)] = v }
   end
-  
+
   def map_value
-    each_pair.with_object({}) do |(key, value), result|
-      result[key] = yield value
-    end
+    each_with_object({}) { |(k, v), h| h[k] = yield(v) }
   end
 end
