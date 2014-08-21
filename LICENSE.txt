@@ -1,4 +1,4 @@
-Copyright (c) 2013 Shannon Skipper
+Copyright (c) 2014 Shannon Skipper
 
 MIT License
 
